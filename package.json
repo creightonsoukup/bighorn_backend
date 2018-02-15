@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev-start": "node ./bin/www",
-    "start": "node index.js",
-    "migrate": "knex migrate:latest",
+    "start": "node app.js",
+    "migrate": "knex migrate:latest"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
