@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev-start": "node ./bin/www",
-    "start": "node app.js",
+    "start": "node ./bin/www",
     "migrate": "knex migrate:latest"
+  },
+  "engine": {
+    "node": "7.7.1"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
