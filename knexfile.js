@@ -7,7 +7,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/bighorn_crossing',
+    connection: 'postgres://localhost/bighorn',
       migrations: {
         directory: './database/migrations',
       },

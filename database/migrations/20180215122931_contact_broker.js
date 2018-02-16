@@ -7,8 +7,8 @@ exports.up = function(knex, Promise) {
     table.string('last_name');
     table.string('phone');
     table.string('email');
-    table.dateTime('request_time');
     table.text('message');
+    table.dateTime('request_time');
   })
 };
 
